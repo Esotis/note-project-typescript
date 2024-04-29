@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  section {
+    @apply w-full p-4;
+  }
+}
+
+@layer components {
+  .box {
+    @apply mx-2 my-4;
+  }
+}
